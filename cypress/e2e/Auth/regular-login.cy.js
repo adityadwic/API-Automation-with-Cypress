@@ -1,23 +1,5 @@
 /// <reference types="cypress"/>
 
-const urlBasic = { // Create variabel for URL
-  baseUrl: Cypress.env('baseUrl'),
-  baseUrlRegist: Cypress.env('baseUrlRegist'),
-  baseUrlBox: Cypress.env('baseUrlBox')
-}
-
-const authBasic = { // Create variabel for Auth Login
-  username: Cypress.env('auth_basic_username'),
-  password: Cypress.env('auth_basic_password'),
-}
-
-const authUser = {  // Create variabel for user Login
-  email: Cypress.env('user_email'),
-  password: Cypress.env('user_password'),
-  superemail: Cypress.env('super_username'),
-  superpassword: Cypress.env('super_password'),
-}
-
 describe('Enhance Credential for login Testing', () => {
   it('Valid id and password', () => {
     cy.visit(urlBasic.baseUrl, {
