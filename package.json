@@ -10,11 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.5.1",
     "cypress-plugin-api": "^2.11.0",
     "node-xlsx": "^0.21.2"
   },
   "devDependencies": {
-    "cy-verify-downloads": "^0.1.14"
+    "cy-verify-downloads": "^0.1.14",
+    "cypress": "^13.3.1"
   }
 }
